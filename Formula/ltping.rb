@@ -7,13 +7,6 @@ class Ltping < Formula
   sha256 "bdd1f409182bb8133cdbf776ec29c5651f86e606548e7ad4ef13c85adb297234"
   license "AGPL-3.0-only"
 
-  bottle do
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "BOTTLE_ARM64_SEQUOIA"
-    sha256 cellar: :any_skip_relocation, arm64_sonoma:  "BOTTLE_ARM64_SONOMA"
-    sha256 cellar: :any_skip_relocation, ventura:       "BOTTLE_VENTURA"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:  "BOTTLE_LINUX"
-  end
-
   depends_on "python@3.12"
 
   resource "dnspython" do
