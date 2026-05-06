@@ -1,18 +1,18 @@
-# latencetech/homebrew-tap
+# Latence-Technologies/homebrew-tap
 
 > Homebrew tap for [LatenceTech](https://latencetech.com) tools.
 
 ## Install ltping
 
 ```bash
-brew tap latencetech/tap
+brew tap Latence-Technologies/tap
 brew install ltping
 ```
 
 Or in a single command:
 
 ```bash
-brew install latencetech/tap/ltping
+brew install Latence-Technologies/tap/ltping
 ```
 
 ## Verify
@@ -34,7 +34,7 @@ brew upgrade ltping
 
 ```bash
 brew uninstall ltping
-brew untap latencetech/tap
+brew untap Latence-Technologies/tap
 ```
 
 ---
